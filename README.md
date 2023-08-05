@@ -22,13 +22,17 @@ Batch normalization ensures a non vanishing gradient.
 
 Importing necessary library that will use in model building.
 
-import tensorflow as tf
+<a><P>import tensorflow as tf
+
 from tensorflow import keras
+
 from tensorflow.keras import Sequential
+
 from tensorflow.keras.layers import Flatten, Dense, Dropout, BatchNormalization
+
 from tensorflow.keras.layers import Conv1D, MaxPool1D
 
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam</a></p>
 
 
 print(tf.__version__)
